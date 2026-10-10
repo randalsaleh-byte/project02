@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.palette-section {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.swatch {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    flex: 1 1 150px;
+    text-align: center;
+}
+
+/* 1. Named Color */
+.named {
+    background-color: crimson;
+}
+
+/* 2. HEX Color */
+.hex {
+    background-color: #800020;
+}
+.rgb {
+    background-color: rgb(128, 0, 32);[cite: 4]
+}
+
+/* 4. RGBA Color with alpha transparency */
+.rgba {
+    background-color: rgba(128, 0, 32, 0.6);[cite: 4]
+}
+.comparison-section {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 30px;
+    border-radius: 8px;
+    width: 320px;
+    color: white;
+    font-size: 16px;
+}
+.opacity-box {
+    background-color: #800020;[cite: 4]
+    opacity: 0.5;[cite: 4]
+}
+.rgba-box {
+    background-color: rgba(128, 0, 32, 0.5);[cite: 4]
+}

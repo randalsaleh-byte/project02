@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.comparison-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box {
+    width: 300px;
+    padding: 30px;
+    border: 10px solid #800020;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.content-box-example {
+    box-sizing: content-box;
+}
+.border-box-example {
+    box-sizing: border-box;
+}
